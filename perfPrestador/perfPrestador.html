@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Perfil do Prestador</title>
+    <link rel="stylesheet" href="/css/perfilPrestador.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <header>        
+            <section id="menu">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light">            
+                        <div class="container-fluid">              
+                            <a class="navbar-brand" href="../Home/Home.html"> <img src="../_assets/Vector.svg" alt="" class="img-fluid"> Agendê </a>                        
+                            <div>
+                                <input type="text" placeholder="Encanadores" />
+                                <button class="btn btn-primary" type="button">Buscar</button>
+                            </div>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <a href="../logIn/login.html"><button class="btn btn-primary me-md-2" type="button">Login</button></a>
+                                <a href="../cadastrodoParceirocliente/index.html"><button class="btn btn-primary" type="button">Cadastre-se</button></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </section>            
+        </header>
+
+        <section id="radios">        
+            <h1 class="titulo1">Nome do Prestador - Nome da Empresa</h1>
+            <h4>Profissão</h4>
+            <h5 id="perfPrest1">Endereço - Cidade, Estado</h5>
+            <h6>Breve descrição oferecida pelo prestador e sobre os serviços prestados por ele.</h6>
+                <p>            
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#vazamento" aria-expanded="false" aria-controls="vazamento">Vazamento</button>
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#desentupimento" aria-expanded="false" aria-controls="desentupimento">Desentupimento</button>
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#consertos" aria-expanded="false" aria-controls="consertos">Consertos</button>
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#ajustesDiversos" aria-expanded="false" aria-controls="ajustesDiversos">Ajustes diversos</button>
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#avaliacao" aria-expanded="false" aria-controls="avaliacao">Avaliação</button>
+                    <h6 id="perfPrest2">Dinheiro, Cartão de crédito, Cartão de débito, PIX.</h6>
+                    <h4>Próximos atendimentos:</h4>
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="vazamento">
+                            <div class="card card-body">
+                                <div class="card text-bg-light mb-3" style="max-width: 20rem;">
+                                    <div class="card-header">
+                                        Vazamento
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">14 de junho de 2022 às 14:00<br></h5>
+                                        <p class="lead">
+                                            <p>Solicitado por cliente: <a href="#" class="alert-link">João Silva</a></p>
+                                            <p>Telefone de contato: <a href="#" class="alert-link">(31) 9 8765-4321</a></p>
+                                        </p>
+                                        <p class="card-text">
+                                            <div class="d-grid gap-2 col-6 mx-auto">
+                                                <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Cancelar serviço</a>                    
+                                            </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                      
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="desentupimento">
+                            <div class="card card-body">
+                                <div class="card text-bg-light mb-3" style="max-width: 20rem;">
+                                    <div class="card-header">
+                                        Desentupimento
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">14 de junho de 2022 às 14:00<br></h5>
+                                        <p class="lead">
+                                            <p>Solicitado por cliente: <a href="#" class="alert-link">João Silva</a></p>
+                                            <p>Telefone de contato: <a href="#" class="alert-link">(31) 9 8765-4321</a></p>
+                                        </p>
+                                        <p class="card-text">
+                                            <div class="d-grid gap-2 col-6 mx-auto">
+                                                <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Cancelar serviço</a>                    
+                                            </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                      
+                </div>
+        <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="consertos">
+                <div class="card card-body">
+                    <div class="card text-bg-light mb-3" style="max-width: 20rem;">
+                        <div class="card-header">
+                            Consertos
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">14 de junho de 2022 às 14:00<br></h5>
+                            <p class="lead">
+                                <p>Solicitado por cliente: <a href="#" class="alert-link">João Silva</a></p>
+                                <p>Telefone de contato: <a href="#" class="alert-link">(31) 9 8765-4321</a></p>
+                            </p>
+                            <p class="card-text">
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Cancelar serviço</a>                    
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>                      
+        </div>
+        <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="ajustesDiversos">
+                <div class="card card-body">
+                    <div class="card text-bg-light mb-3" style="max-width: 20rem;">
+                        <div class="card-header">
+                            Ajustes diversos
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">14 de junho de 2022 às 14:00<br></h5>
+                            <p class="lead">
+                                <p>Solicitado por cliente: <a href="#" class="alert-link">João Silva</a></p>
+                                <p>Telefone de contato: <a href="#" class="alert-link">(31) 9 8765-4321</a></p>
+                            </p>
+                            <p class="card-text">
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Cancelar serviço</a>                    
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>                      
+        </div>
+        <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="avaliacao">
+                <div class="card card-body">
+                    <div class="card text-bg-light mb-3" style="max-width: 20rem;">
+                        <div class="card-header">
+                            Avaliações
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">14 de junho de 2022 às 14:00<br></h5>
+                            <p class="lead">
+                                <p>Solicitado por cliente: <a href="#" class="alert-link">João Silva</a></p>
+                                <p>Telefone de contato: <a href="#" class="alert-link">(31) 9 8765-4321</a></p>
+                            </p>
+                            <p class="card-text">
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Cancelar serviço</a>                    
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>                      
+        </div>
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">CANCELAR AGENDAMENTO</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Tem certeza que deseja cancelar esse agendamento?<br>
+                        Esta ação não poderá ser desfeita.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary">Confirmar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>             
+    </div>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
