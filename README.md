@@ -11,8 +11,8 @@ Site para agendamentos
 
 ## Integrantes
 
-* Gabriela Scarabelli Bahia
 * Nathalia Souto Ferreira Pino
+* Gabriela Scarabelli Bahia
 * Felipe Zavitoski
 * Fabiola Oliveira de Souza
 * Patricia Rocha da Rosa Machado Nakamura
